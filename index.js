@@ -6,4 +6,5 @@ console.log(myName);
 const age = 32;
 console.log(age);
 
-1 / 0;
+const isAdmin = true;
+isAdmin = false;
