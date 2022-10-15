@@ -5,3 +5,5 @@ for (i = 7; i <= 12; i++) {
 /*do {
   console.log("1 raz");
 } while (false);*/
+
+console.log("hi");
