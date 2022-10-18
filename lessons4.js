@@ -12,11 +12,37 @@ console.log("hi");*/
   console.log("Ku-ku");
 }*/
 
-const n = 100;
-let m = 20;
+/*let n = 100;
+const m = 20;
 let i = 0;
 while (n > m) {
-  n == n % 2;
+  n = n / 2;
   i += 1;
 }
 console.log(i);
+console.log("дня понадобилось");*/
+
+/*let i = 0;
+for (let n = 1800; n < 1961; n += 1) {
+  i += 1;
+}
+console.log(i);*/
+
+/*const gagarin = 1961;
+let i = 0;
+for (let nastDey = 2022; nastDey > gagarin; nastDey -= 1) {
+  i += 1;
+  if (nastDey === gagarin) {
+    break;
+  }
+}
+console.log(i);*/
+
+/*let a = 1800;
+let b = 2022;
+let i = 0;
+while (a < b) {
+  a = a + 4;
+  i += 1;
+}
+console.log(i);*/
