@@ -6,4 +6,3 @@ for (i = 7; i <= 12; i++) {
   console.log("1 raz");
 } while (false);*/
 
-console.log("hi");
