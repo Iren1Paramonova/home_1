@@ -38,11 +38,6 @@ for (let nastDey = 2022; nastDey > gagarin; nastDey -= 1) {
 }
 console.log(i);*/
 
-/*let a = 1800;
-let b = 2022;
-let i = 0;
-while (a < b) {
-  a = a + 4;
-  i += 1;
-}
-console.log(i);*/
+
+
+
