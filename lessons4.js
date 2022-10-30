@@ -38,6 +38,19 @@ for (let nastDey = 2022; nastDey > gagarin; nastDey -= 1) {
 }
 console.log(i);*/
 
+const name = "ECMAScript";
+if (name === "ECMAScript") {
+  console.log("Verno!");
+} else {
+  console.log("Не знаете? ECMAScript!");
+}
 
-
-
+let num = 0;
+if (num > 0) {
+  console.log("1");
+}
+if (num < 0) {
+  console.log("-1");
+} else {
+  console.log("0");
+}
