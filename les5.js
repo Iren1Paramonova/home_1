@@ -14,7 +14,3 @@ let funExp = function (a, d, w) {
   console.log((a - d) / w);
 };
 funExp(2, 4, 1);
-
-function aWeek("пн,2,3,4,5,6,7) {
-    
-}
