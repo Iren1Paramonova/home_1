@@ -36,9 +36,6 @@ console.log(bArr(aArr)); */
 
 //практика 2 задача
 let arr = [1, 4, 9, 7, 6, 5, 8, 4, 3, 4, 6, 1];
-const unicArr = function (arr) {
-  let result =[];
-  for (let )
-}
+const unicArr = arr.map((el) => el !== el++);
 console.log(unicArr);
 //https://learn.javascript.ru/task/array-unique
