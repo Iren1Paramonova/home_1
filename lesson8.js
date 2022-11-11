@@ -35,7 +35,25 @@ const bArr = (arr) =>
 console.log(bArr(aArr)); */
 
 //практика 2 задача
-let arr = [1, 4, 9, 7, 6, 5, 8, 4, 3, 4, 6, 1];
-const unicArr = arr.map((el) => el !== el++);
-console.log(unicArr);
-//https://learn.javascript.ru/task/array-unique
+/* let arr = [1, 4, 9, 7, 6, 5, 8, 4, 3, 4, 6, 1];
+function unique(arr) {
+  let result = [];
+  for (let nam of arr) {
+    if (!result.includes(nam)) {
+      result.push(nam);
+    }
+  }
+  return result;
+}
+console.log(unique(arr)); */
+
+//практика 3 задача
+/* const arr1 = [7,5,2,8];
+const arr2 =[7,5,2,8];
+console.log(JSON.stringify(arr1)===JSON.stringify(arr2)); */
+
+//дз
+//1
+const arr =['Jule', 'Anton', 'Nino', 'Rembrand'];
+let mapArr = arr.map((el) => el.length);
+console.log(mapArr);
