@@ -59,7 +59,7 @@ let mapArr = arr.map((el) => el.length);
 console.log(mapArr); */
 
 //2
-const numbers = [0, 2, 3, 5, 7, 11, 13, 17, 19, 23];
+/* const numbers = [0, 2, 3, 5, 7, 11, 13, 17, 19, 23];
 const currentSums = (arr) => {
   const result = [];
 
@@ -71,7 +71,7 @@ const currentSums = (arr) => {
   return result;
 };
 
-console.log(currentSums(numbers));
+console.log(currentSums(numbers)); */
 
 //3
 /* const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -79,16 +79,23 @@ const sumSeven = (arr) => {
   const result = [];
   for (let i of arr) {
     for (let j of arr) {
-      if (i + j === 7 && !result.includes("${ i }: ${ j }"))
-        result.push("${i}:${j}");
+      if (i + j === 7 && !result.includes(`${ i }: ${ j }`))
+        result.push(`${i}:${j}`);
     }
   }
   return result;
 };
-console.log(sumSeven(arr));
+console.log(sumSeven(arr)); */
+
+//4
+/* let str = "make love not war";
+let arr = str.split(" ");
+let arr1 = arr.map (function (arr) { for (i=0; i<arr.length; i+=1) 
+return arr[i].charAt(i)});
+console.log(arr1.join(" ")); */
 
 //5
-const str = "JavaScript";
+/*const str = "JavaScript";
 const strSymbols = (str) => {
   const result = [];
   const { length } = str;
@@ -158,5 +165,5 @@ const sumMoreTen = (arr) => {
   }
   return lastIndex + 2;
 };
-console.log(sumMoreTen(arr));
- */
+console.log(sumMoreTen(arr)); */
+
