@@ -4,17 +4,26 @@ class Worker {
     this.surname = surname;
     this.rate = rate;
     this.days = days;
-    this.getSalary = function () {
-      console.log(`${this.rate * $this.days}`);
-    };
-    __proto__
+  }
+  getSalary() {
+    return `${this.rate * this.days}`;
+  }
+  getFullName() {
+    return `${this.name} ${this.surname}`;
   }
 }
-function NameWorker() {
-  this.getFullName = function () {
-    console.log(`${this.name} ${this.surname}`);
-  };
+class Boss extends Worker {
+  constructor(name, surname, rate, days, workers) {
+    super(name, surname, rate, days);
+    this.workers = workers;
+  }
+  getSalary() {
+    return `${this.rate * this.days * this.workers}`;
+  }
 }
 
-const firstWorker = new Worker("Ira", "Paramonova", 10000, 5);
+let firstWorker = new Worker("Ira", "Paramonova", 5000, 5);
 console.log(firstWorker.getFullName(), "получает", firstWorker.getSalary());
+
+let firstBoss = new Boss("Ira", "Paramonova", 5000, 5, 7);
+console.log(firstBoss.getFullName(), "получает", firstBoss.getSalary());
